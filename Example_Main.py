@@ -8,6 +8,19 @@ def getInput():
     for i in range(0,2):
        nums[i] = input("Please enter a number:")
     return nums
+def add(nums):
+    return nums[0] + nums[1]
+def subtract(nums):
+    if nums[0] > nums[1]:
+        return nums[0] - nums[1]
+    else:
+        return nums[1]-nums[0]
+def multiply(nums):
+    return nums[0] * nums[1]
+def divide(nums):
+    return nums[0] / nums[1]
+
+
 
 def main():
     nums = getInput()
